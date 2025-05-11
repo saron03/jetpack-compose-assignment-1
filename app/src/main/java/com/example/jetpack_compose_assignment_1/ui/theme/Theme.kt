@@ -8,14 +8,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
 private val LightColorScheme = lightColorScheme(
-    primary = Color(0xFF1565C0), // PrimaryColor
-    secondary = Color(0xFF90CAF9), // SecondaryColor
-    surface = Color(0xFFE3F2FD), // CardColor
+    primary = Color(0xFF1565C0),
+    secondary = Color(0xFF90CAF9),
+    surface = Color(0xFFE3F2FD),
     onPrimary = Color.White,
-    onSecondary = Color(0xFF546E7A), // TextSecondary
-    onSurface = Color(0xFF0D47A1), // TextPrimary
-    onBackground = Color(0xFF546E7A), // TextSecondary
-    background = Color(0xFFE3ECF5) // Light background for Scaffold
+    onSecondary = Color(0xFF546E7A),
+    onSurface = Color(0xFF0D47A1),
+    onBackground = Color(0xFF546E7A),
+    background = Color(0xFFE3ECF5)
 )
 
 private val DarkColorScheme = darkColorScheme(
@@ -26,7 +26,7 @@ private val DarkColorScheme = darkColorScheme(
     onSecondary = Color(0xFF546E7A),
     onSurface = Color(0xFF0D47A1),
     onBackground = Color(0xFF546E7A),
-    background = Color(0xFF1C2526) // Darker background
+    background = Color(0xFF1C2526)
 )
 
 @Composable

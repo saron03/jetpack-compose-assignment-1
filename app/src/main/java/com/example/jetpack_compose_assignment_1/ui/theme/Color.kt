@@ -17,6 +17,6 @@ val Chartreuse = Color(0xFFEFF7CF)
 
 val PrimaryColor = Color(0xFF1565C0)
 val SecondaryColor = Color(0xFF90CAF9)
-val CardColor = Color(0xFFE3F2FD) // Updated card color for better visibility
+val CardColor = Color(0xFFE3F2FD)
 val TextPrimary = Color(0xFF0D47A1)
 val TextSecondary = Color(0xFF546E7A)
