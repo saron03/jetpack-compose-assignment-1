@@ -90,7 +90,6 @@ fun CourseListScreen(courses: List<Course>, modifier: Modifier = Modifier) {
                         .fillMaxWidth()
                         .padding(top = 16.dp, bottom = 8.dp)
                         .clip(RoundedCornerShape(8.dp))
-                        .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.1f))
                         .padding(vertical = 12.dp, horizontal = 16.dp),
                     contentAlignment = Alignment.Center
                 ) {
@@ -101,6 +100,7 @@ fun CourseListScreen(courses: List<Course>, modifier: Modifier = Modifier) {
                         color = Color.Black,
                     )
                 }
+
             }
             items(courses) { course ->
                 CourseCard(course = course)

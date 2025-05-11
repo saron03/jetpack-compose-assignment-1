@@ -2,6 +2,10 @@
 
 This project demonstrates the creation of a simple Android application using Jetpack Compose, which displays a list of academic courses. The app follows Material 3 Design principles and incorporates state management, animations, and theming to provide a modern user experience.
 
+- Name: Saron Yitbareck 
+- ID: UGR/3774/15
+- Section: 04
+
 ## Features
 
 - **Course List**: Displays a list of academic courses with essential information (Course Title, Code, and Credit Hours).
